@@ -1,6 +1,6 @@
 <!--for overriding-->
 
-{{ if (eq (default "en-US" .Params.language) "zh-CN") }}
+{{ if .Params.isCJKLanguage }}
 <style>
     html {
         font-family: "Source Han Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
