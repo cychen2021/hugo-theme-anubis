@@ -38,6 +38,10 @@ body {
     background: var(--bg-color);
 }
 
+.content{
+    text-align: justify;
+}
+
 article,
 aside,
 details,
